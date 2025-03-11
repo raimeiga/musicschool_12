@@ -8,12 +8,14 @@
 //layout
 @use'layout/l-header';
 @use'layout/l-footer';
+@use'layout/l-inner';
 // @use'layout';
 
 //object
 @use'object/component/c-btn';
 @use'object/component/c-ham';
+@use'object/component/c-head';
 
-// @use'object//project/';
+@use'object//project/p-top';
 
-// @use'object/utility/u-utility';
+@use'object/utility/u-utility';
