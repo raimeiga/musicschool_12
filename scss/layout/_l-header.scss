@@ -10,6 +10,10 @@
  display: flex;
  align-items: center;
  justify-content: space-between;
+ z-index: 100;
+ position: fixed;
+ top: 0;
+ left: 0;
  @include sp {
   height: 5rem;
   padding-inline: 2rem 0;
@@ -63,6 +67,7 @@
 .l-header__nav {
  height: inherit; 
  @include sp {
+  z-index: 5;
    position: fixed;
    top: 5rem;
    right: -120%;
@@ -80,6 +85,7 @@
  justify-content: space-between;
  column-gap: 3.3rem;
  @include sp {
+  background-color: $color-red;
    flex-direction: column;
  }
 }

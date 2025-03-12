@@ -4,6 +4,7 @@
 
 .p-top__fv {
  width: 100%;
+
 }
 
 
@@ -174,81 +175,118 @@ position: relative;
 
  //---------------------------
 
-.p-top__message {
- padding-block: 6.8rem  6rem;
- @include sp {
-  padding-block: 4.9rem 4rem;
+ .p-top__message {
+  padding-block: 6.8rem 6rem;
+  @include sp {
+    padding-block: 4.9rem 4rem;
+  }
  }
-}
 
-.p-top-message__text {
- width: 100%;
- padding-top: 3rem;
- text-align: center;
- font-size: 1.8rem;
- color: #fff;
- line-height: calc(30 / 18);
- font-weight: 500; 
- @include sp {
-  padding-top: 1.4rem;
+ .p-top-message__text {
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+  color:#fff;
+  font-size: 1.8rem;
+  line-height: calc(30 / 18);
+  font-weight: 500;
+  @include sp {
+    padding-top: 1.4rem;
+  }
  }
-}
 
-//------------------------
+ //-----------------------
 
-.p-top__reason {
- padding-block: 6.4rem 7rem;
- @include sp {
-  padding-block: 4.9rem 3.9rem;   
+ .p-top__reason {
+  padding-block: 6.4rem 7rem;
+  @include sp {
+    padding-block: 4.9rem 3.9rem;
+  }
  }
-}
 
-.p-top-reason__block {
- display: flex;
- margin-block: 2.8rem 5rem;
- @include sp {
-  flex-direction: column;
-  margin-block: 3.6rem 3.9rem;
+ .p-top-reason__block {
+  display: flex;
  }
-}
 
-.p-top-reason__img {
- width: 35rem;
- flex-shrink: 0;
- @include sp {
-   width: 100%;
+ .p-top-reason__img {
+  width: 35rem;
  }
-}
 
-.p-top-reason__right {
+// .p-top__message {
+//  padding-block: 6.8rem  6rem;
+//  @include sp {
+//   padding-block: 4.9rem 4rem;
+//  }
+// }
+
+// .p-top-message__text {
+//  width: 100%;
+//  padding-top: 3rem;
+//  text-align: center;
+//  font-size: 1.8rem;
+//  color: #fff;
+//  line-height: calc(30 / 18);
+//  font-weight: 500; 
+//  @include sp {
+//   padding-top: 1.4rem;
+//  }
+// }
+
+// //------------------------
+
+// .p-top__reason {
+//  padding-block: 6.4rem 7rem;
+//  @include sp {
+//   padding-block: 4.9rem 3.9rem;   
+//  }
+// }
+
+// .p-top-reason__block {
+//  display: flex;
+//  margin-block: 2.8rem 5rem;
+//  @include sp {
+//   flex-direction: column;
+//   margin-block: 3.6rem 3.9rem;
+//  }
+// }
+
+// .p-top-reason__img {
+//  width: 35rem;
+//  flex-shrink: 0;
+//  @include sp {
+//    width: 100%;
+//  }
+// }
+
+// .p-top-reason__right {
  
- @include sp {
+//  @include sp {
    
- }
-}
+//  }
+// }
 
-.p-top-reason__head {
- padding: 0.7rem 0 1.2rem 5rem;
- border-bottom: 0.2rem solid $color-red;
- font-size: 2.2rem;
- line-height: calc(33 / 22);
- @include sp {
-  padding: 3rem 0 1rem 0;
-   font-size: 2rem;
-   line-height: calc(30 / 20);
- }
-}
+// .p-top-reason__head {
+//  padding: 0.7rem 0 1.2rem 5rem;
+//  border-bottom: 0.2rem solid $color-red;
+//  font-size: 2.2rem;
+//  line-height: calc(33 / 22);
+//  @include sp {
+//   padding: 3rem 0 1rem 0;
+//    font-size: 2rem;
+//    line-height: calc(30 / 20);
+//  }
+// }
 
-.p-top-reason__text {
- padding: 3.7rem 0 0 5rem;
- font-size: 1.8rem;
- line-height: calc(33 / 18);
- @include sp {
-  padding: 1.7rem 0 0 0rem;
-   font-size: 1.6rem;
-   line-height: calc(30 / 16);
- }
-}
+// .p-top-reason__text {
+//  padding: 3.7rem 0 0 5rem;
+//  font-size: 1.8rem;
+//  line-height: calc(33 / 18);
+//  @include sp {
+//   padding: 1.7rem 0 0 0rem;
+//    font-size: 1.6rem;
+//    line-height: calc(30 / 16);
+//  }
+// }
 
 
 
